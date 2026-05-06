@@ -13,23 +13,23 @@ class new_model(nn.Module):
         
         self.network = nn.Sequential(
             nn.Linear(28 * 28, 16),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(16, 32),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(32, 64),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(64, 128),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(128, 256),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(256, 128),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(128, 64),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(64, 32),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(32, 16),
-            nn.ELU(),
+            nn.ReLU(),
             nn.Linear(16, 10)
         )
 
