@@ -28,6 +28,7 @@
  ```
 
 # 2. 의존성 설치
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -35,6 +36,7 @@ pip install -r requirements.txt
 
 # 3. 폴더 구조
 아래 폴더 구조를 따르도록 해주시길 바랍니다.
+properties 폴더와 하위 데이터는 test.py를 실행하는 동안 생성됩니다.
 ```text
 📁 최상위 폴더
 ├── 📄 generate_query.py
@@ -47,7 +49,7 @@ pip install -r requirements.txt
     ├── 📄 image0_target0_epsilon0.001.txt
     ├── 📄 image0_target0_epsilon0.003.txt
     ...
-    ├── 📄 image4_target9_epsilon0.045.txt
+    └── 📄 image4_target9_epsilon0.045.txt
     
 ```
 
